@@ -1,38 +1,52 @@
-.App {
-  text-align: center;
+.subhead{
+  font-size: 40px;
+  font-weight: bold;
+  margin-inline-start: 48%;
+  margin-top: 20%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.text{
+width: 40%;
+margin-inline-start: 40%;
+margin-top: 5%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.btn-add:hover{
+  background-color:darkviolet;
+  font-weight: bold;
+  border: 2px solid rgb(9, 215, 230);
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.date{
+  width: 40%;
+  margin-inline-start: 8%;
 }
-
-.App-link {
-  color: #61dafb;
+.due{
+  margin-inline-start: 40%;
+  font-weight: bold;
+  font-size: 18px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button-dark{
+  margin-inline-start: 53%;
+  
+}
+.my-task{
+  font-size: 35px;
+  font-weight: bold;
+  margin-inline-end: 25%;
+  margin-top: 4%;
+}
+.delete{
+  margin-inline-start: 33%;
+}
+.alert{
+  margin-inline-start: 5%;
+  font-weight: bold;
+  color: aqua;
+  font-size: 18px;
+}
+.Notask{
+  font-weight: bold;
+  font-size: 35px;
+}
+.img{ 
+  height: 1000px;
+  background-image:url("https://images.pexels.com/photos/2236703/pexels-photo-2236703.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
 }
